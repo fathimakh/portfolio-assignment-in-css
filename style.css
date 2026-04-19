@@ -1,0 +1,88 @@
+/* Google Font */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+}
+
+/* Header */
+header {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation */
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* Hover effect for nav */
+nav a:hover {
+  color: yellow;
+}
+
+/* Sections */
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+/* Image */
+img {
+  border-radius: 50%;
+}
+
+/* Project cards */
+article {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* Animation */
+article:hover {
+  transform: scale(1.05);
+}
+
+/* Form inputs */
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+  background: #0077b6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+  background: darkblue;
+}
+
+/* Footer */
+footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
